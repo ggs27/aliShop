@@ -1,0 +1,475 @@
+2022-03-25 23:09:12 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2022-03-25 23:09:12 INFO main - kvConfigPath=/root/namesrv/kvConfig.json
+2022-03-25 23:09:12 INFO main - configStorePath=/root/namesrv/namesrv.properties
+2022-03-25 23:09:12 INFO main - productEnvName=center
+2022-03-25 23:09:12 INFO main - clusterTest=false
+2022-03-25 23:09:12 INFO main - orderMessageEnable=false
+2022-03-25 23:09:12 INFO main - listenPort=9876
+2022-03-25 23:09:12 INFO main - serverWorkerThreads=8
+2022-03-25 23:09:12 INFO main - serverCallbackExecutorThreads=0
+2022-03-25 23:09:12 INFO main - serverSelectorThreads=3
+2022-03-25 23:09:12 INFO main - serverOnewaySemaphoreValue=256
+2022-03-25 23:09:12 INFO main - serverAsyncSemaphoreValue=64
+2022-03-25 23:09:12 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-03-25 23:09:12 INFO main - serverSocketSndBufSize=65535
+2022-03-25 23:09:12 INFO main - serverSocketRcvBufSize=65535
+2022-03-25 23:09:12 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-03-25 23:09:12 INFO main - useEpollNativeSelector=false
+2022-03-25 23:09:13 INFO main - Server is running in TLS permissive mode
+2022-03-25 23:09:13 INFO main - Tls config file doesn't exist, skip it
+2022-03-25 23:09:13 INFO main - Log the final used tls related configuration
+2022-03-25 23:09:13 INFO main - tls.test.mode.enable = true
+2022-03-25 23:09:13 INFO main - tls.server.need.client.auth = none
+2022-03-25 23:09:13 INFO main - tls.server.keyPath = null
+2022-03-25 23:09:13 INFO main - tls.server.keyPassword = null
+2022-03-25 23:09:13 INFO main - tls.server.certPath = null
+2022-03-25 23:09:13 INFO main - tls.server.authClient = false
+2022-03-25 23:09:13 INFO main - tls.server.trustCertPath = null
+2022-03-25 23:09:13 INFO main - tls.client.keyPath = null
+2022-03-25 23:09:13 INFO main - tls.client.keyPassword = null
+2022-03-25 23:09:13 INFO main - tls.client.certPath = null
+2022-03-25 23:09:13 INFO main - tls.client.authServer = false
+2022-03-25 23:09:13 INFO main - tls.client.trustCertPath = null
+2022-03-25 23:09:13 INFO main - Using OpenSSL provider
+2022-03-25 23:09:13 INFO main - SSLContext created for server
+2022-03-25 23:09:13 INFO NettyEventExecutor - NettyEventExecutor service started
+2022-03-25 23:09:13 INFO FileWatchService - FileWatchService service started
+2022-03-25 23:09:13 INFO main - The Name Server boot success. serializeType=JSON
+2022-03-25 23:10:13 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-25 23:10:13 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-25 23:20:13 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-25 23:20:13 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-25 23:30:13 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-25 23:30:13 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-25 23:40:13 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-25 23:40:13 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-25 23:50:13 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-25 23:50:13 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 00:00:13 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 00:00:13 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 00:10:13 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 00:10:13 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 00:20:13 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 00:20:13 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 00:30:13 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 00:30:13 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 00:40:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 00:40:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 10:01:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 10:01:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 10:11:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 10:11:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 10:21:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 10:21:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 10:31:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 10:31:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 10:41:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 10:41:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 10:51:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 10:51:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 11:01:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 11:01:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 11:11:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 11:11:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 11:21:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 11:21:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 11:31:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 11:31:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 11:41:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 11:41:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 11:51:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 11:51:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 12:01:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 12:01:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 12:11:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 12:11:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 12:21:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 12:21:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 12:31:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 12:31:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 12:41:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 12:41:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 12:51:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 12:51:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 13:01:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 13:01:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 13:11:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 13:11:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 13:21:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 13:21:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 13:31:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 13:31:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 13:41:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 13:41:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 13:51:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 13:51:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 14:01:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 14:01:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 14:11:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 14:11:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 14:21:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 14:21:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 14:31:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 14:31:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 14:41:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 14:41:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 14:51:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 14:51:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 15:01:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 15:01:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 15:11:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 15:11:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 15:21:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 15:21:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 15:31:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 15:31:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 15:41:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-03-26 15:41:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-03-26 15:46:52 INFO ShutdownHook - shutdown hook was invoked, 1 times.
+2022-04-11 20:17:26 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2022-04-11 20:17:26 INFO main - kvConfigPath=/root/namesrv/kvConfig.json
+2022-04-11 20:17:26 INFO main - configStorePath=/root/namesrv/namesrv.properties
+2022-04-11 20:17:26 INFO main - productEnvName=center
+2022-04-11 20:17:26 INFO main - clusterTest=false
+2022-04-11 20:17:26 INFO main - orderMessageEnable=false
+2022-04-11 20:17:26 INFO main - listenPort=9876
+2022-04-11 20:17:26 INFO main - serverWorkerThreads=8
+2022-04-11 20:17:26 INFO main - serverCallbackExecutorThreads=0
+2022-04-11 20:17:26 INFO main - serverSelectorThreads=3
+2022-04-11 20:17:26 INFO main - serverOnewaySemaphoreValue=256
+2022-04-11 20:17:26 INFO main - serverAsyncSemaphoreValue=64
+2022-04-11 20:17:26 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-04-11 20:17:26 INFO main - serverSocketSndBufSize=65535
+2022-04-11 20:17:26 INFO main - serverSocketRcvBufSize=65535
+2022-04-11 20:17:26 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-04-11 20:17:26 INFO main - useEpollNativeSelector=false
+2022-04-11 20:17:26 INFO main - Server is running in TLS permissive mode
+2022-04-11 20:17:26 INFO main - Tls config file doesn't exist, skip it
+2022-04-11 20:17:26 INFO main - Log the final used tls related configuration
+2022-04-11 20:17:26 INFO main - tls.test.mode.enable = true
+2022-04-11 20:17:26 INFO main - tls.server.need.client.auth = none
+2022-04-11 20:17:26 INFO main - tls.server.keyPath = null
+2022-04-11 20:17:26 INFO main - tls.server.keyPassword = null
+2022-04-11 20:17:26 INFO main - tls.server.certPath = null
+2022-04-11 20:17:26 INFO main - tls.server.authClient = false
+2022-04-11 20:17:26 INFO main - tls.server.trustCertPath = null
+2022-04-11 20:17:26 INFO main - tls.client.keyPath = null
+2022-04-11 20:17:26 INFO main - tls.client.keyPassword = null
+2022-04-11 20:17:26 INFO main - tls.client.certPath = null
+2022-04-11 20:17:26 INFO main - tls.client.authServer = false
+2022-04-11 20:17:26 INFO main - tls.client.trustCertPath = null
+2022-04-11 20:17:27 INFO main - Using OpenSSL provider
+2022-04-11 20:17:27 INFO main - SSLContext created for server
+2022-04-11 20:17:27 INFO NettyEventExecutor - NettyEventExecutor service started
+2022-04-11 20:17:27 INFO FileWatchService - FileWatchService service started
+2022-04-11 20:17:27 INFO main - The Name Server boot success. serializeType=JSON
+2022-04-11 20:18:27 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-11 20:18:27 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-11 20:28:27 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-11 20:28:27 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-11 20:38:27 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-11 20:38:27 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-11 20:48:27 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-11 20:48:27 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-11 20:58:27 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-11 20:58:27 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-11 21:08:27 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-11 21:08:27 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-11 21:18:27 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-11 21:18:27 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-11 21:28:27 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-11 21:28:27 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 11:31:22 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2022-05-12 11:31:22 INFO main - kvConfigPath=/root/namesrv/kvConfig.json
+2022-05-12 11:31:22 INFO main - configStorePath=/root/namesrv/namesrv.properties
+2022-05-12 11:31:22 INFO main - productEnvName=center
+2022-05-12 11:31:22 INFO main - clusterTest=false
+2022-05-12 11:31:22 INFO main - orderMessageEnable=false
+2022-05-12 11:31:22 INFO main - listenPort=9876
+2022-05-12 11:31:22 INFO main - serverWorkerThreads=8
+2022-05-12 11:31:22 INFO main - serverCallbackExecutorThreads=0
+2022-05-12 11:31:22 INFO main - serverSelectorThreads=3
+2022-05-12 11:31:22 INFO main - serverOnewaySemaphoreValue=256
+2022-05-12 11:31:22 INFO main - serverAsyncSemaphoreValue=64
+2022-05-12 11:31:22 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-05-12 11:31:22 INFO main - serverSocketSndBufSize=65535
+2022-05-12 11:31:22 INFO main - serverSocketRcvBufSize=65535
+2022-05-12 11:31:22 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-05-12 11:31:22 INFO main - useEpollNativeSelector=false
+2022-05-12 11:31:22 INFO main - Server is running in TLS permissive mode
+2022-05-12 11:31:22 INFO main - Tls config file doesn't exist, skip it
+2022-05-12 11:31:22 INFO main - Log the final used tls related configuration
+2022-05-12 11:31:22 INFO main - tls.test.mode.enable = true
+2022-05-12 11:31:22 INFO main - tls.server.need.client.auth = none
+2022-05-12 11:31:22 INFO main - tls.server.keyPath = null
+2022-05-12 11:31:22 INFO main - tls.server.keyPassword = null
+2022-05-12 11:31:22 INFO main - tls.server.certPath = null
+2022-05-12 11:31:22 INFO main - tls.server.authClient = false
+2022-05-12 11:31:22 INFO main - tls.server.trustCertPath = null
+2022-05-12 11:31:22 INFO main - tls.client.keyPath = null
+2022-05-12 11:31:22 INFO main - tls.client.keyPassword = null
+2022-05-12 11:31:22 INFO main - tls.client.certPath = null
+2022-05-12 11:31:22 INFO main - tls.client.authServer = false
+2022-05-12 11:31:22 INFO main - tls.client.trustCertPath = null
+2022-05-12 11:31:22 INFO main - Using OpenSSL provider
+2022-05-12 11:31:22 INFO main - SSLContext created for server
+2022-05-12 11:31:22 INFO NettyEventExecutor - NettyEventExecutor service started
+2022-05-12 11:31:22 INFO FileWatchService - FileWatchService service started
+2022-05-12 11:31:22 INFO main - The Name Server boot success. serializeType=JSON
+2022-05-12 11:32:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 11:32:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 11:42:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 11:42:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 11:52:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 11:52:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 12:02:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 12:02:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 12:12:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 12:12:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 12:22:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 12:22:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 12:32:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 12:32:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 12:42:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 12:42:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 12:52:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 12:52:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 13:02:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 13:02:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 13:12:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 13:12:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 13:22:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 13:22:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 13:32:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 13:32:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 13:42:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 13:42:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 13:52:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 13:52:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 14:02:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 14:02:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 14:12:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 14:12:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 14:22:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 14:22:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 14:32:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 14:32:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 14:42:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 14:42:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 14:52:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 14:52:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 15:02:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 15:02:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 15:12:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 15:12:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 15:22:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 15:22:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 15:32:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 15:32:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 15:42:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 15:42:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 15:52:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 15:52:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 16:02:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 16:02:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 16:12:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 16:12:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 16:22:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 16:22:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 16:32:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 16:32:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 16:42:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 16:42:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 16:52:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 16:52:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 17:02:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 17:02:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 17:12:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 17:12:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 17:22:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 17:22:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 17:32:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 17:32:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 17:42:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 17:42:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 17:52:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 17:52:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 18:02:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 18:02:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 18:12:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 18:12:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 18:22:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 18:22:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 18:32:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 18:32:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 18:42:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 18:42:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 18:52:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 18:52:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 19:02:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 19:02:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 19:12:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 19:12:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 19:22:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 19:22:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 19:32:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 19:32:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 19:42:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 19:42:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 19:52:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 19:52:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 20:02:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 20:02:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 20:12:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 20:12:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 20:22:22 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 20:22:22 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 20:32:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 20:32:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 20:42:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 20:42:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 20:52:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 20:52:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 21:02:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 21:02:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 21:12:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 21:12:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 21:22:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 21:22:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 21:32:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 21:32:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 21:42:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 21:42:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 21:52:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 21:52:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 22:02:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 22:02:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 22:12:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 22:12:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 22:22:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 22:22:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 22:32:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 22:32:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 22:42:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 22:42:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 22:52:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 22:52:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 23:02:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 23:02:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 23:12:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 23:12:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 23:22:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 23:22:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-12 23:32:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-12 23:32:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 10:38:01 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2022-05-14 10:38:01 INFO main - kvConfigPath=/root/namesrv/kvConfig.json
+2022-05-14 10:38:01 INFO main - configStorePath=/root/namesrv/namesrv.properties
+2022-05-14 10:38:01 INFO main - productEnvName=center
+2022-05-14 10:38:01 INFO main - clusterTest=false
+2022-05-14 10:38:01 INFO main - orderMessageEnable=false
+2022-05-14 10:38:01 INFO main - listenPort=9876
+2022-05-14 10:38:01 INFO main - serverWorkerThreads=8
+2022-05-14 10:38:01 INFO main - serverCallbackExecutorThreads=0
+2022-05-14 10:38:01 INFO main - serverSelectorThreads=3
+2022-05-14 10:38:01 INFO main - serverOnewaySemaphoreValue=256
+2022-05-14 10:38:01 INFO main - serverAsyncSemaphoreValue=64
+2022-05-14 10:38:01 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-05-14 10:38:01 INFO main - serverSocketSndBufSize=65535
+2022-05-14 10:38:01 INFO main - serverSocketRcvBufSize=65535
+2022-05-14 10:38:01 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-05-14 10:38:01 INFO main - useEpollNativeSelector=false
+2022-05-14 10:38:02 INFO main - Server is running in TLS permissive mode
+2022-05-14 10:38:02 INFO main - Tls config file doesn't exist, skip it
+2022-05-14 10:38:02 INFO main - Log the final used tls related configuration
+2022-05-14 10:38:02 INFO main - tls.test.mode.enable = true
+2022-05-14 10:38:02 INFO main - tls.server.need.client.auth = none
+2022-05-14 10:38:02 INFO main - tls.server.keyPath = null
+2022-05-14 10:38:02 INFO main - tls.server.keyPassword = null
+2022-05-14 10:38:02 INFO main - tls.server.certPath = null
+2022-05-14 10:38:02 INFO main - tls.server.authClient = false
+2022-05-14 10:38:02 INFO main - tls.server.trustCertPath = null
+2022-05-14 10:38:02 INFO main - tls.client.keyPath = null
+2022-05-14 10:38:02 INFO main - tls.client.keyPassword = null
+2022-05-14 10:38:02 INFO main - tls.client.certPath = null
+2022-05-14 10:38:02 INFO main - tls.client.authServer = false
+2022-05-14 10:38:02 INFO main - tls.client.trustCertPath = null
+2022-05-14 10:38:03 INFO main - Using OpenSSL provider
+2022-05-14 10:38:04 INFO main - SSLContext created for server
+2022-05-14 10:38:04 INFO NettyEventExecutor - NettyEventExecutor service started
+2022-05-14 10:38:04 INFO FileWatchService - FileWatchService service started
+2022-05-14 10:38:04 INFO main - The Name Server boot success. serializeType=JSON
+2022-05-14 10:39:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 10:39:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 10:49:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 10:49:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 10:59:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 10:59:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 11:09:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 11:09:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 11:19:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 11:19:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 11:29:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 11:29:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 11:39:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 11:39:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 11:49:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 11:49:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 11:59:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 11:59:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 12:09:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 12:09:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 12:19:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 12:19:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 12:29:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 12:29:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 12:39:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 12:39:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 12:49:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 12:49:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 12:59:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 12:59:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 13:09:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 13:09:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 13:19:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 13:19:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 13:29:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 13:29:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 13:39:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 13:39:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 13:49:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 13:49:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 13:59:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 13:59:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 14:09:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 14:09:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 14:19:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 14:19:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 14:29:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 14:29:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 14:39:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 14:39:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 14:49:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 14:49:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 14:59:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 14:59:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 15:09:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 15:09:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 15:19:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 15:19:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 15:29:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 15:29:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 15:39:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 15:39:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 15:49:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 15:49:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 15:59:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 15:59:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 16:09:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 16:09:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 16:19:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 16:19:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 16:29:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 16:29:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-05-14 16:39:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-05-14 16:39:04 INFO NSScheduledThread1 - configTable SIZE: 0
