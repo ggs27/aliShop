@@ -26,7 +26,6 @@ public class LoginController {
     @Autowired
     UserService userService;
 
-
     @RequestMapping("/to_login")
     public String toLogin() {
         return "login";
@@ -35,14 +34,6 @@ public class LoginController {
     @RequestMapping("/do_login")
     @ResponseBody
     public Result<String> doLogin(HttpServletResponse response, @Valid LoginVo loginVo) {//加入JSR303参数校验
-        log.info(loginVo.toString());
-        String token = userService.login(response, loginVo);
-        return Result.success(token);
-    }
-
-    @RequestMapping("/do_register")
-    @ResponseBody
-    public Result<String> doRegister(HttpServletResponse response, @Valid LoginVo loginVo) {//加入JSR303参数校验
         log.info(loginVo.toString());
         String token = userService.login(response, loginVo);
         return Result.success(token);

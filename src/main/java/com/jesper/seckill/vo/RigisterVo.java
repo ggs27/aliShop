@@ -22,7 +22,15 @@ public class RigisterVo {
     private String password;
 
     @NotNull
-    private String password2;
+    private String salt;
+
+    public String getSalt() {
+        return salt;
+    }
+
+    public void setSalt(String salt) {
+        this.salt = salt;
+    }
 
     public String getMobile() {
         return mobile;
@@ -48,13 +56,13 @@ public class RigisterVo {
         this.password = password;
     }
 
-    public String getPassword2() {
-        return password2;
+    @Override
+    public String toString() {
+        return "RigisterVo{" +
+                "mobile='" + mobile + '\'' +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", salt='" + salt + '\'' +
+                '}';
     }
-
-    public void setPassword2(String password2) {
-        this.password2 = password2;
-    }
-
-
 }

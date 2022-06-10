@@ -16,7 +16,10 @@ public class CodeMsg {
     public static CodeMsg MOBILE_EMPTY = new CodeMsg(500212, "手机号不能为空");
     public static CodeMsg MOBILE_ERROR = new CodeMsg(500213, "手机号格式错误");
     public static CodeMsg MOBILE_NOT_EXIST = new CodeMsg(500214, "手机号不存在");
+    public static CodeMsg MOBILE_EXIST = new CodeMsg(500214, "手机号已注册");
+    public static CodeMsg NAME_EXIST = new CodeMsg(500214, "用户名已存在");
     public static CodeMsg PASSWORD_ERROR = new CodeMsg(500215, "密码错误");
+    public static CodeMsg PASSWORD_DIFFERENT = new CodeMsg(500215, "密码不同");
     public static CodeMsg PRIMARY_ERROR = new CodeMsg(500216, "主键冲突");
 
     //商品模块 5003XX

@@ -10,6 +10,7 @@ import com.jesper.seckill.result.CodeMsg;
 import com.jesper.seckill.util.MD5Util;
 import com.jesper.seckill.util.UUIDUtil;
 import com.jesper.seckill.vo.LoginVo;
+import com.jesper.seckill.vo.RigisterVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -29,6 +30,7 @@ public class UserService {
     RedisService redisService;
 
     public static final String COOKIE_NAME_TOKEN = "token";
+    public static final String salt = "1a2b3c4d";
 
     public User getById(long id) {
         //对象缓存
@@ -41,6 +43,21 @@ public class UserService {
         //再存入缓存
         if (user != null) {
             redisService.set(UserKey.getById, "" + id, user);
+        }
+        return user;
+    }
+
+    public User getByName(String name){
+        //判断缓存是否存在
+        User user = redisService.get(UserKey.getById,"" + name,User.class);
+        if(user != null){
+            return user;
+        }
+        //判断数据库是否存在
+        user = userMapper.getByName(name);
+        if(user != null)
+        {
+            redisService.set(UserKey.getByName,""+name,user);
         }
         return user;
     }
@@ -66,6 +83,42 @@ public class UserService {
         return true;
     }
 
+    /**
+     * 用户注册
+     * @param response
+     * @param rigisterVo
+     * @return
+     */
+    public void register(HttpServletResponse response, RigisterVo rigisterVo) {
+        //1. 前端获取注册信息
+        if(rigisterVo == null)
+        {
+            throw new GlobalException(CodeMsg.SESSION_ERROR);
+        }
+        String mobile = rigisterVo.getMobile();
+        String password = MD5Util.inputPassToDbPass(rigisterVo.getPassword(),salt);
+        rigisterVo.setPassword(password);
+        String name = rigisterVo.getName();
+
+        //2.判断电话号码，昵称是否使用过
+        User user = getById(Long.parseLong(mobile));
+        if (user != null) {
+            throw new GlobalException(CodeMsg.MOBILE_EXIST);
+        }
+        User user1 = getByName(name);
+        if (user1 != null){
+            throw new GlobalException(CodeMsg.NAME_EXIST);
+        }
+        //3. 注册
+        userMapper.insert(rigisterVo);
+    }
+
+    /**
+     * 用户登录
+     * @param response
+     * @param loginVo
+     * @return
+     */
     public String login(HttpServletResponse response, LoginVo loginVo) {
         if (loginVo == null) {
             throw new GlobalException(CodeMsg.SERVER_ERROR);

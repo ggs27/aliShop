@@ -14,3 +14,11 @@
 2022-05-14 10:38:02 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4e718207
 2022-05-14 10:38:02 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1d371b2d
 2022-05-14 10:38:02 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@543c6f6d
+2022-05-15 10:34:20 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5891e32e
+2022-05-15 10:34:20 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4e718207
+2022-05-15 10:34:20 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1d371b2d
+2022-05-15 10:34:20 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@543c6f6d
+2022-05-15 10:42:53 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5891e32e
+2022-05-15 10:42:53 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4e718207
+2022-05-15 10:42:53 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1d371b2d
+2022-05-15 10:42:53 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@543c6f6d
